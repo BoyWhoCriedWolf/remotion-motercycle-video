@@ -18,6 +18,7 @@ export const RemotionRoot: React.FC = () => {
           music: staticFile('music.mp3'),
           colors: {
             background: '#005CA3',
+            backgroundDark: '#001B4B',
             backgroundText: '#FFFFFF',
             black: '#000000',
             white: '#FFFFFF',
@@ -29,9 +30,8 @@ export const RemotionRoot: React.FC = () => {
             accentText: '#f00',
           },
           background: {
-            type: 'slashes',
+            type: 'gradient',
             background: 'background',
-            stroke: 'backgroundText',
           },
           fonts: {
             primary: 'Montserrat',
@@ -82,6 +82,7 @@ export const RemotionRoot: React.FC = () => {
           music: staticFile('music.mp3'),
           colors: {
             background: '#151515',
+            backgroundDark: '#151515',
             backgroundText: '#FFFFFF',
             black: '#000000',
             white: '#FFFFFF',

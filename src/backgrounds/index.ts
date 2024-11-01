@@ -1,15 +1,15 @@
 import { z } from 'zod';
 import { CrossesBackground } from './_/Crosses';
+import { GradientBackground } from './_/Gradient';
 import { ImageBackground } from './_/Image';
 import { LinesBackground } from './_/Lines';
 import { RealEstateBackground } from './_/RealEstate';
-import { SlashesBackground } from './_/Slashes';
 import { SquaresBackground } from './_/Squares';
 import { StaticBackground } from './_/Static';
 
 export const BACKGROUNDS = [
   // Add new background here
-  SlashesBackground,
+  GradientBackground,
   LinesBackground,
   SquaresBackground,
   ImageBackground,

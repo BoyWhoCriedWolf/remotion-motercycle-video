@@ -2,12 +2,13 @@ import { TransitionSeries, linearTiming } from '@remotion/transitions';
 import { AbsoluteFill, Audio, staticFile, useVideoConfig } from 'remotion';
 import { z } from 'zod';
 
-import Scene1, { scene1Schema } from './Scene1';
 import Scene2, { scene2Schema } from './Scene2';
 import Scene3, { scene3Schema } from './Scene3';
 import Scene4, { scene4Schema } from './Scene4';
 import Scene5, { scene5Schema } from './Scene5';
 import Scene6, { scene6Schema } from './Scene6';
+import Scene1 from './scene-1';
+import { scene1Schema } from './scene-1/Scene1';
 
 import { BackgroundProps } from '../backgrounds';
 import { LoadFonts } from '../lib/LoadFonts';
