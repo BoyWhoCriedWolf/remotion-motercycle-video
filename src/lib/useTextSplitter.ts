@@ -99,7 +99,7 @@ export const useTextSplitter = ({
     // console.log(document.querySelectorAll("div"), "docu all ");
     if (!isFontLoaded) return;
     const template = document.querySelector(`#${id}`)!;
-    console.log(template, 'template');
+    // console.log(template, 'template');
 
     const style: CSSProperties = {
       position: 'absolute',
